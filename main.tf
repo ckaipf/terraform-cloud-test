@@ -14,5 +14,5 @@ data "openstack_images_image_v2" "image" {
 
 data "openstack_images_image_v2" "image_2" {
   name        = "CentOS 7.7 2020-07-07"
-  most_recent = true
+  most_recent = false
 }
