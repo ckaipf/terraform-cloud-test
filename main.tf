@@ -19,5 +19,5 @@ data "openstack_images_image_v2" "image_2" {
 
 resource openstack_networking_secgroup_v2 "test" {
   name        = "test"
-  description = "test"
+  description = "nothing changed"
 }
